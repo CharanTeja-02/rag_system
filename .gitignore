@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+
+# Dataset files
+data/raw/*
+data/processed/*
+
+# FAISS index
+indexes/*
+
+# Environment variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
